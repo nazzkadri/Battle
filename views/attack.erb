@@ -1,3 +1,2 @@
-<h2><%= @player_1 %> attacks <%= @player_2 %></h2>
-<%= $player_2.reduce_points %>
-<h2><%= @player_2 %>'s points are now: <%= $player_2.points %>HP</h2>
+<h2><%= $game.player_1.display_name %> attacked <%= $game.player_2.display_name %></h2>
+<h2><%= $game.player_2.display_name %>'s points are now: <%= $game.player_2.points %>HP</h2>
