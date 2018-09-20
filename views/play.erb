@@ -2,8 +2,7 @@
 <h1><%= $game.player_1.display_name %> vs <%= $game.player_2.display_name %></h1>
 <h2><%= $game.player_1.display_name %>: <%= $game.player_1.points %>HP</h2>
 <h2><%= $game.player_2.display_name %>: <%= $game.player_2.points %>HP</h2>
-<h2><%= $game.current_player %>'s turn to play</h2>
-
+<h2><%= $game.current_player.display_name %>'s turn to play</h2>
 
 <input type="submit" value="Attack">
 <a href="/attack">Ok</link>
